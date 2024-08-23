@@ -1,0 +1,358 @@
+2024-08-22T09:50:02.229+05:30  INFO 9316 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Starting SpringjpavalidationApplication using Java 17.0.12 with PID 9316 (D:\Java Training - Assesments\springjpavalidation\target\classes started by Mohammad.Azam in D:\Java Training - Assesments\springjpavalidation)
+2024-08-22T09:50:02.269+05:30 DEBUG 9316 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-22T09:50:02.271+05:30  INFO 9316 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : The following 2 profiles are active: "test", "prod"
+2024-08-22T09:50:03.076+05:30  INFO 9316 --- [springjpavalidation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-22T09:50:03.147+05:30  INFO 9316 --- [springjpavalidation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+2024-08-22T09:50:03.738+05:30  INFO 9316 --- [springjpavalidation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-22T09:50:03.741+05:30  INFO 9316 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-22T09:50:03.741+05:30  INFO 9316 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2024-08-22T09:50:03.745+05:30  INFO 9316 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2024-08-22T09:50:03.754+05:30  INFO 9316 --- [springjpavalidation] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-22T09:50:03.754+05:30  INFO 9316 --- [springjpavalidation] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-22T09:50:03.828+05:30  INFO 9316 --- [springjpavalidation] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-22T09:50:03.830+05:30  INFO 9316 --- [springjpavalidation] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1472 ms
+2024-08-22T09:50:03.996+05:30  INFO 9316 --- [springjpavalidation] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-22T09:50:04.053+05:30  INFO 9316 --- [springjpavalidation] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-22T09:50:04.082+05:30  INFO 9316 --- [springjpavalidation] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-22T09:50:04.366+05:30  INFO 9316 --- [springjpavalidation] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-22T09:50:04.388+05:30  INFO 9316 --- [springjpavalidation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-22T09:50:04.742+05:30  INFO 9316 --- [springjpavalidation] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6a5dd083
+2024-08-22T09:50:04.744+05:30  INFO 9316 --- [springjpavalidation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-22T09:50:05.866+05:30  INFO 9316 --- [springjpavalidation] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-22T09:50:05.922+05:30  INFO 9316 --- [springjpavalidation] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T09:50:06.279+05:30  WARN 9316 --- [springjpavalidation] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-22T09:50:06.763+05:30  INFO 9316 --- [springjpavalidation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-22T09:50:06.780+05:30  INFO 9316 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Started SpringjpavalidationApplication in 5.171 seconds (process running for 5.722)
+2024-08-22T09:50:06.787+05:30  INFO 9316 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : ---------------- API is started ----------------
+2024-08-22T09:50:18.054+05:30  INFO 9316 --- [springjpavalidation] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-22T09:50:18.054+05:30  INFO 9316 --- [springjpavalidation] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-22T09:50:18.055+05:30  INFO 9316 --- [springjpavalidation] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-22T09:50:18.097+05:30  INFO 9316 --- [springjpavalidation] [http-nio-8080-exec-2] c.a.s.service.EmployeeService            : ---------------- getting employee by id ----------------
+2024-08-22T09:50:18.170+05:30  INFO 9316 --- [springjpavalidation] [http-nio-8080-exec-2] c.a.s.exceptions.GlobalExceptionHandler  : ---------------- Handling not found exception ----------------
+2024-08-22T10:04:47.721+05:30  INFO 9316 --- [springjpavalidation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T10:04:47.727+05:30  INFO 9316 --- [springjpavalidation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-22T10:04:47.757+05:30  INFO 9316 --- [springjpavalidation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-22T10:30:52.828+05:30  INFO 2328 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Starting SpringjpavalidationApplication using Java 17.0.12 with PID 2328 (D:\Java Training - Assesments\springjpavalidation\target\classes started by Mohammad.Azam in D:\Java Training - Assesments\springjpavalidation)
+2024-08-22T10:30:52.830+05:30 DEBUG 2328 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-22T10:30:52.832+05:30  INFO 2328 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : The following 2 profiles are active: "test", "prod"
+2024-08-22T10:30:53.440+05:30  INFO 2328 --- [springjpavalidation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-22T10:30:53.486+05:30  INFO 2328 --- [springjpavalidation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+2024-08-22T10:30:53.916+05:30  INFO 2328 --- [springjpavalidation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-22T10:30:53.918+05:30  INFO 2328 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-22T10:30:53.918+05:30  INFO 2328 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2024-08-22T10:30:53.921+05:30  INFO 2328 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2024-08-22T10:30:53.927+05:30  INFO 2328 --- [springjpavalidation] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-22T10:30:53.927+05:30  INFO 2328 --- [springjpavalidation] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-22T10:30:53.981+05:30  INFO 2328 --- [springjpavalidation] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-22T10:30:53.981+05:30  INFO 2328 --- [springjpavalidation] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1087 ms
+2024-08-22T10:30:54.096+05:30  INFO 2328 --- [springjpavalidation] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-22T10:30:54.128+05:30  INFO 2328 --- [springjpavalidation] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-22T10:30:54.153+05:30  INFO 2328 --- [springjpavalidation] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-22T10:30:54.353+05:30  INFO 2328 --- [springjpavalidation] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-22T10:30:54.369+05:30  INFO 2328 --- [springjpavalidation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-22T10:30:54.518+05:30  INFO 2328 --- [springjpavalidation] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e6bd263
+2024-08-22T10:30:54.520+05:30  INFO 2328 --- [springjpavalidation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-22T10:30:55.196+05:30  INFO 2328 --- [springjpavalidation] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-22T10:30:55.224+05:30  INFO 2328 --- [springjpavalidation] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T10:30:55.436+05:30  WARN 2328 --- [springjpavalidation] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-22T10:30:55.721+05:30  WARN 2328 --- [springjpavalidation] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-08-22T10:30:55.722+05:30  INFO 2328 --- [springjpavalidation] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T10:30:55.723+05:30  INFO 2328 --- [springjpavalidation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-22T10:30:55.743+05:30  INFO 2328 --- [springjpavalidation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-22T10:30:55.752+05:30  INFO 2328 --- [springjpavalidation] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-08-22T10:30:55.761+05:30 ERROR 2328 --- [springjpavalidation] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-08-22T10:40:37.741+05:30  INFO 18484 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Starting SpringjpavalidationApplication using Java 17.0.12 with PID 18484 (D:\Java Training - Assesments\springjpavalidation\target\classes started by Mohammad.Azam in D:\Java Training - Assesments\springjpavalidation)
+2024-08-22T10:40:37.746+05:30 DEBUG 18484 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-22T10:40:37.748+05:30  INFO 18484 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : The following 2 profiles are active: "test", "prod"
+2024-08-22T10:40:38.583+05:30  INFO 18484 --- [springjpavalidation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-22T10:40:38.655+05:30  INFO 18484 --- [springjpavalidation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+2024-08-22T10:40:39.318+05:30  INFO 18484 --- [springjpavalidation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-22T10:40:39.321+05:30  INFO 18484 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-22T10:40:39.321+05:30  INFO 18484 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2024-08-22T10:40:39.327+05:30  INFO 18484 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2024-08-22T10:40:39.336+05:30  INFO 18484 --- [springjpavalidation] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-22T10:40:39.336+05:30  INFO 18484 --- [springjpavalidation] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-22T10:40:39.417+05:30  INFO 18484 --- [springjpavalidation] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-22T10:40:39.418+05:30  INFO 18484 --- [springjpavalidation] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1582 ms
+2024-08-22T10:40:39.547+05:30  INFO 18484 --- [springjpavalidation] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-22T10:40:39.600+05:30  INFO 18484 --- [springjpavalidation] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-22T10:40:39.629+05:30  INFO 18484 --- [springjpavalidation] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-22T10:40:39.950+05:30  INFO 18484 --- [springjpavalidation] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-22T10:40:39.976+05:30  INFO 18484 --- [springjpavalidation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-22T10:40:40.219+05:30  INFO 18484 --- [springjpavalidation] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@586843bc
+2024-08-22T10:40:40.222+05:30  INFO 18484 --- [springjpavalidation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-22T10:40:41.464+05:30  INFO 18484 --- [springjpavalidation] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-22T10:40:41.534+05:30  INFO 18484 --- [springjpavalidation] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T10:40:41.957+05:30  WARN 18484 --- [springjpavalidation] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-22T10:40:42.401+05:30  INFO 18484 --- [springjpavalidation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-22T10:40:42.415+05:30  INFO 18484 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Started SpringjpavalidationApplication in 5.382 seconds (process running for 5.985)
+2024-08-22T10:40:42.419+05:30  INFO 18484 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : ---------------- API is started ----------------
+2024-08-22T10:41:50.182+05:30  INFO 18484 --- [springjpavalidation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T10:41:50.185+05:30  INFO 18484 --- [springjpavalidation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-22T10:41:50.199+05:30  INFO 18484 --- [springjpavalidation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-22T10:41:56.047+05:30  INFO 14636 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Starting SpringjpavalidationApplication using Java 17.0.12 with PID 14636 (D:\Java Training - Assesments\springjpavalidation\target\classes started by Mohammad.Azam in D:\Java Training - Assesments\springjpavalidation)
+2024-08-22T10:41:56.057+05:30 DEBUG 14636 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-22T10:41:56.059+05:30  INFO 14636 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : The following 2 profiles are active: "test", "prod"
+2024-08-22T10:41:57.795+05:30  INFO 14636 --- [springjpavalidation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-22T10:41:57.868+05:30  INFO 14636 --- [springjpavalidation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interface.
+2024-08-22T10:41:58.524+05:30  INFO 14636 --- [springjpavalidation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-22T10:41:58.528+05:30  INFO 14636 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-22T10:41:58.528+05:30  INFO 14636 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2024-08-22T10:41:58.532+05:30  INFO 14636 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2024-08-22T10:41:58.541+05:30  INFO 14636 --- [springjpavalidation] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-22T10:41:58.541+05:30  INFO 14636 --- [springjpavalidation] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-22T10:41:58.615+05:30  INFO 14636 --- [springjpavalidation] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-22T10:41:58.616+05:30  INFO 14636 --- [springjpavalidation] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2518 ms
+2024-08-22T10:41:58.751+05:30  INFO 14636 --- [springjpavalidation] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-22T10:41:58.808+05:30  INFO 14636 --- [springjpavalidation] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-22T10:41:58.838+05:30  INFO 14636 --- [springjpavalidation] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-22T10:41:59.116+05:30  INFO 14636 --- [springjpavalidation] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-22T10:41:59.140+05:30  INFO 14636 --- [springjpavalidation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-22T10:41:59.418+05:30  INFO 14636 --- [springjpavalidation] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5d5d3a5c
+2024-08-22T10:41:59.419+05:30  INFO 14636 --- [springjpavalidation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-22T10:42:00.490+05:30  INFO 14636 --- [springjpavalidation] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-22T10:42:00.526+05:30  INFO 14636 --- [springjpavalidation] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T10:42:00.818+05:30  WARN 14636 --- [springjpavalidation] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-22T10:42:01.171+05:30  INFO 14636 --- [springjpavalidation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-22T10:42:01.183+05:30  INFO 14636 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Started SpringjpavalidationApplication in 6.744 seconds (process running for 7.309)
+2024-08-22T10:42:01.187+05:30  INFO 14636 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : ---------------- API is started ----------------
+2024-08-22T10:43:03.294+05:30  INFO 14636 --- [springjpavalidation] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-22T10:43:03.294+05:30  INFO 14636 --- [springjpavalidation] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-22T10:43:03.306+05:30  INFO 14636 --- [springjpavalidation] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2024-08-22T12:07:50.527+05:30  WARN 14636 --- [springjpavalidation] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m49s515ms392µs800ns).
+2024-08-22T12:57:08.677+05:30  WARN 14636 --- [springjpavalidation] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s348ms673µs600ns).
+2024-08-22T13:42:43.817+05:30  WARN 14636 --- [springjpavalidation] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45m35s137ms585µs).
+2024-08-22T14:15:31.655+05:30  WARN 14636 --- [springjpavalidation] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m14s295ms917µs100ns).
+2024-08-22T14:40:24.639+05:30  INFO 14636 --- [springjpavalidation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T14:40:24.647+05:30  INFO 14636 --- [springjpavalidation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-22T14:40:24.653+05:30  INFO 14636 --- [springjpavalidation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-22T14:47:28.090+05:30  INFO 17564 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Starting SpringjpavalidationApplication using Java 17.0.12 with PID 17564 (D:\Java Training - Assesments\springjpavalidation\target\classes started by Mohammad.Azam in D:\Java Training - Assesments\springjpavalidation)
+2024-08-22T14:47:28.093+05:30 DEBUG 17564 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-22T14:47:28.094+05:30  INFO 17564 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : The following 2 profiles are active: "test", "prod"
+2024-08-22T14:47:28.808+05:30  INFO 17564 --- [springjpavalidation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-22T14:47:28.861+05:30  INFO 17564 --- [springjpavalidation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
+2024-08-22T14:47:29.759+05:30  INFO 17564 --- [springjpavalidation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-22T14:47:29.761+05:30  INFO 17564 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-22T14:47:29.762+05:30  INFO 17564 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2024-08-22T14:47:29.765+05:30  INFO 17564 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2024-08-22T14:47:29.773+05:30  INFO 17564 --- [springjpavalidation] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-22T14:47:29.774+05:30  INFO 17564 --- [springjpavalidation] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-22T14:47:29.840+05:30  INFO 17564 --- [springjpavalidation] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-22T14:47:29.841+05:30  INFO 17564 --- [springjpavalidation] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1683 ms
+2024-08-22T14:47:29.943+05:30  INFO 17564 --- [springjpavalidation] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-22T14:47:29.981+05:30  INFO 17564 --- [springjpavalidation] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-22T14:47:30.004+05:30  INFO 17564 --- [springjpavalidation] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-22T14:47:30.209+05:30  INFO 17564 --- [springjpavalidation] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-22T14:47:30.228+05:30  INFO 17564 --- [springjpavalidation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-22T14:47:30.385+05:30  INFO 17564 --- [springjpavalidation] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4ef5dd23
+2024-08-22T14:47:30.387+05:30  INFO 17564 --- [springjpavalidation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-22T14:47:31.164+05:30  INFO 17564 --- [springjpavalidation] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-22T14:47:31.204+05:30  INFO 17564 --- [springjpavalidation] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T14:47:31.431+05:30  WARN 17564 --- [springjpavalidation] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-22T14:47:31.748+05:30  INFO 17564 --- [springjpavalidation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-22T14:47:31.757+05:30  INFO 17564 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Started SpringjpavalidationApplication in 4.111 seconds (process running for 4.564)
+2024-08-22T14:47:31.760+05:30  INFO 17564 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : ---------------- API is started ----------------
+2024-08-22T14:48:23.214+05:30  INFO 17564 --- [springjpavalidation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T14:48:23.216+05:30  INFO 17564 --- [springjpavalidation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-22T14:48:23.221+05:30  INFO 17564 --- [springjpavalidation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-22T14:48:26.225+05:30  INFO 16228 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Starting SpringjpavalidationApplication using Java 17.0.12 with PID 16228 (D:\Java Training - Assesments\springjpavalidation\target\classes started by Mohammad.Azam in D:\Java Training - Assesments\springjpavalidation)
+2024-08-22T14:48:26.227+05:30 DEBUG 16228 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-22T14:48:26.228+05:30  INFO 16228 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : The following 2 profiles are active: "test", "prod"
+2024-08-22T14:48:26.799+05:30  INFO 16228 --- [springjpavalidation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-22T14:48:26.844+05:30  INFO 16228 --- [springjpavalidation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+2024-08-22T14:48:27.323+05:30  INFO 16228 --- [springjpavalidation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-22T14:48:27.326+05:30  INFO 16228 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-22T14:48:27.326+05:30  INFO 16228 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2024-08-22T14:48:27.331+05:30  INFO 16228 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2024-08-22T14:48:27.340+05:30  INFO 16228 --- [springjpavalidation] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-22T14:48:27.340+05:30  INFO 16228 --- [springjpavalidation] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-22T14:48:27.455+05:30  INFO 16228 --- [springjpavalidation] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-22T14:48:27.455+05:30  INFO 16228 --- [springjpavalidation] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1169 ms
+2024-08-22T14:48:27.570+05:30  INFO 16228 --- [springjpavalidation] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-22T14:48:27.606+05:30  INFO 16228 --- [springjpavalidation] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-22T14:48:27.625+05:30  INFO 16228 --- [springjpavalidation] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-22T14:48:27.827+05:30  INFO 16228 --- [springjpavalidation] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-22T14:48:27.843+05:30  INFO 16228 --- [springjpavalidation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-22T14:48:27.996+05:30  INFO 16228 --- [springjpavalidation] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2a0963be
+2024-08-22T14:48:27.999+05:30  INFO 16228 --- [springjpavalidation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-22T14:48:28.710+05:30  INFO 16228 --- [springjpavalidation] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-22T14:48:28.744+05:30  INFO 16228 --- [springjpavalidation] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T14:48:28.993+05:30  WARN 16228 --- [springjpavalidation] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-22T14:48:29.329+05:30  INFO 16228 --- [springjpavalidation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-22T14:48:29.340+05:30  INFO 16228 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Started SpringjpavalidationApplication in 3.557 seconds (process running for 3.975)
+2024-08-22T14:48:29.344+05:30  INFO 16228 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : ---------------- API is started ----------------
+2024-08-22T14:48:46.452+05:30  INFO 16228 --- [springjpavalidation] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-22T14:48:46.453+05:30  INFO 16228 --- [springjpavalidation] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-22T14:48:46.455+05:30  INFO 16228 --- [springjpavalidation] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-08-22T14:48:46.513+05:30 ERROR 16228 --- [springjpavalidation] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.multipart.MultipartException: Current request is not a multipart request] with root cause
+
+org.springframework.web.multipart.MultipartException: Current request is not a multipart request
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValueInternal(RequestParamMethodArgumentResolver.java:213) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValue(RequestParamMethodArgumentResolver.java:196) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:126) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2024-08-22T14:49:03.477+05:30  INFO 16228 --- [springjpavalidation] [http-nio-8080-exec-4] c.a.s.service.EmployeeService            : ----------------- Added all the data into the data base using CSV file -------------
+2024-08-22T14:49:47.298+05:30  INFO 16228 --- [springjpavalidation] [http-nio-8080-exec-6] c.a.s.service.EmployeeService            : ----------------- Added all the data into the data base using CSV file -------------
+2024-08-22T14:49:59.903+05:30  INFO 16228 --- [springjpavalidation] [http-nio-8080-exec-8] c.a.s.service.EmployeeService            : ----------------- Added all the data into the data base using CSV file -------------
+2024-08-22T14:59:01.097+05:30  INFO 16228 --- [springjpavalidation] [http-nio-8080-exec-9] c.a.s.service.EmployeeService            : ---------------- Deleting employee by Id ----------------
+2024-08-22T15:04:10.850+05:30  INFO 16228 --- [springjpavalidation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T15:04:10.852+05:30  INFO 16228 --- [springjpavalidation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-22T15:04:10.856+05:30  INFO 16228 --- [springjpavalidation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-22T15:04:14.289+05:30  INFO 620 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Starting SpringjpavalidationApplication using Java 17.0.12 with PID 620 (D:\Java Training - Assesments\springjpavalidation\target\classes started by Mohammad.Azam in D:\Java Training - Assesments\springjpavalidation)
+2024-08-22T15:04:14.292+05:30 DEBUG 620 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-22T15:04:14.293+05:30  INFO 620 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : The following 2 profiles are active: "test", "prod"
+2024-08-22T15:04:14.847+05:30  INFO 620 --- [springjpavalidation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-22T15:04:14.887+05:30  INFO 620 --- [springjpavalidation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interface.
+2024-08-22T15:04:15.344+05:30  INFO 620 --- [springjpavalidation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-22T15:04:15.346+05:30  INFO 620 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-22T15:04:15.346+05:30  INFO 620 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2024-08-22T15:04:15.349+05:30  INFO 620 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2024-08-22T15:04:15.355+05:30  INFO 620 --- [springjpavalidation] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-22T15:04:15.356+05:30  INFO 620 --- [springjpavalidation] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-22T15:04:15.463+05:30  INFO 620 --- [springjpavalidation] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-22T15:04:15.464+05:30  INFO 620 --- [springjpavalidation] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1106 ms
+2024-08-22T15:04:15.658+05:30  INFO 620 --- [springjpavalidation] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-22T15:04:15.689+05:30  INFO 620 --- [springjpavalidation] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-22T15:04:15.715+05:30  INFO 620 --- [springjpavalidation] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-22T15:04:15.929+05:30  INFO 620 --- [springjpavalidation] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-22T15:04:15.945+05:30  INFO 620 --- [springjpavalidation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-22T15:04:16.105+05:30  INFO 620 --- [springjpavalidation] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6a51ae7c
+2024-08-22T15:04:16.106+05:30  INFO 620 --- [springjpavalidation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-22T15:04:16.746+05:30  INFO 620 --- [springjpavalidation] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-22T15:04:16.777+05:30  INFO 620 --- [springjpavalidation] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T15:04:17.055+05:30  WARN 620 --- [springjpavalidation] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-22T15:04:17.336+05:30  INFO 620 --- [springjpavalidation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-22T15:04:17.346+05:30  INFO 620 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Started SpringjpavalidationApplication in 3.465 seconds (process running for 3.883)
+2024-08-22T15:04:17.349+05:30  INFO 620 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : ---------------- API is started ----------------
+2024-08-22T15:04:21.198+05:30  INFO 620 --- [springjpavalidation] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-22T15:04:21.198+05:30  INFO 620 --- [springjpavalidation] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-22T15:04:21.199+05:30  INFO 620 --- [springjpavalidation] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-22T15:04:21.250+05:30  INFO 620 --- [springjpavalidation] [http-nio-8080-exec-1] c.a.s.service.EmployeeService            : ---------------- getting employee by id ----------------
+2024-08-22T15:04:21.289+05:30  INFO 620 --- [springjpavalidation] [http-nio-8080-exec-1] c.a.s.exceptions.GlobalExceptionHandler  : ---------------- Handling not found exception ----------------
+2024-08-22T15:05:31.758+05:30  INFO 620 --- [springjpavalidation] [http-nio-8080-exec-5] c.a.s.service.EmployeeService            : ---------------- getting employee by id ----------------
+2024-08-22T15:05:31.824+05:30  INFO 620 --- [springjpavalidation] [http-nio-8080-exec-5] c.a.s.service.EmployeeService            : ---------------- Deleting employee by Id ----------------
+2024-08-22T15:36:22.190+05:30  WARN 620 --- [springjpavalidation] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m5s478ms392µs800ns).
+2024-08-22T17:26:28.470+05:30  WARN 620 --- [springjpavalidation] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m4s355ms646µs100ns).
+2024-08-22T18:21:50.562+05:30  INFO 620 --- [springjpavalidation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T18:21:50.598+05:30  INFO 620 --- [springjpavalidation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-22T18:21:50.607+05:30  INFO 620 --- [springjpavalidation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-22T18:21:59.258+05:30  INFO 4112 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Starting SpringjpavalidationApplication using Java 17.0.12 with PID 4112 (D:\Java Training - Assesments\springjpavalidation\target\classes started by Mohammad.Azam in D:\Java Training - Assesments\springjpavalidation)
+2024-08-22T18:21:59.260+05:30 DEBUG 4112 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-22T18:21:59.261+05:30  INFO 4112 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : The following 2 profiles are active: "test", "prod"
+2024-08-22T18:21:59.962+05:30  INFO 4112 --- [springjpavalidation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-22T18:22:00.024+05:30  INFO 4112 --- [springjpavalidation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interface.
+2024-08-22T18:22:00.650+05:30  INFO 4112 --- [springjpavalidation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-22T18:22:00.653+05:30  INFO 4112 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-22T18:22:00.653+05:30  INFO 4112 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2024-08-22T18:22:00.657+05:30  INFO 4112 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2024-08-22T18:22:00.667+05:30  INFO 4112 --- [springjpavalidation] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-22T18:22:00.668+05:30  INFO 4112 --- [springjpavalidation] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-22T18:22:00.766+05:30  INFO 4112 --- [springjpavalidation] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-22T18:22:00.766+05:30  INFO 4112 --- [springjpavalidation] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1463 ms
+2024-08-22T18:22:00.937+05:30  INFO 4112 --- [springjpavalidation] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-22T18:22:00.981+05:30  INFO 4112 --- [springjpavalidation] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-22T18:22:01.009+05:30  INFO 4112 --- [springjpavalidation] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-22T18:22:01.354+05:30  INFO 4112 --- [springjpavalidation] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-22T18:22:01.383+05:30  INFO 4112 --- [springjpavalidation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-22T18:22:01.644+05:30  INFO 4112 --- [springjpavalidation] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6e00837f
+2024-08-22T18:22:01.646+05:30  INFO 4112 --- [springjpavalidation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-22T18:22:02.849+05:30  INFO 4112 --- [springjpavalidation] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-22T18:22:02.892+05:30  INFO 4112 --- [springjpavalidation] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T18:22:03.231+05:30  WARN 4112 --- [springjpavalidation] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-22T18:22:03.624+05:30  INFO 4112 --- [springjpavalidation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-22T18:22:03.634+05:30  INFO 4112 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Started SpringjpavalidationApplication in 6.024 seconds (process running for 6.556)
+2024-08-22T18:22:03.638+05:30  INFO 4112 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : ---------------- API is started ----------------
+2024-08-22T18:22:06.600+05:30  INFO 4112 --- [springjpavalidation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T18:22:06.606+05:30  INFO 4112 --- [springjpavalidation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-22T18:22:06.628+05:30  INFO 4112 --- [springjpavalidation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-22T18:27:02.643+05:30  INFO 10616 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Starting SpringjpavalidationApplication using Java 17.0.12 with PID 10616 (D:\Java Training - Assesments\springjpavalidation\target\classes started by Mohammad.Azam in D:\Java Training - Assesments\springjpavalidation)
+2024-08-22T18:27:02.649+05:30 DEBUG 10616 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-22T18:27:02.656+05:30  INFO 10616 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : The following 2 profiles are active: "test", "prod"
+2024-08-22T18:27:04.263+05:30  INFO 10616 --- [springjpavalidation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-22T18:27:04.307+05:30  INFO 10616 --- [springjpavalidation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2024-08-22T18:27:04.848+05:30  INFO 10616 --- [springjpavalidation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-22T18:27:04.850+05:30  INFO 10616 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-22T18:27:04.850+05:30  INFO 10616 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2024-08-22T18:27:04.854+05:30  INFO 10616 --- [springjpavalidation] [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2024-08-22T18:27:04.861+05:30  INFO 10616 --- [springjpavalidation] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-22T18:27:04.861+05:30  INFO 10616 --- [springjpavalidation] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-22T18:27:04.913+05:30  INFO 10616 --- [springjpavalidation] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-22T18:27:04.913+05:30  INFO 10616 --- [springjpavalidation] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1188 ms
+2024-08-22T18:27:05.009+05:30  INFO 10616 --- [springjpavalidation] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-22T18:27:05.045+05:30  INFO 10616 --- [springjpavalidation] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-22T18:27:05.073+05:30  INFO 10616 --- [springjpavalidation] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-22T18:27:05.309+05:30  INFO 10616 --- [springjpavalidation] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-22T18:27:05.325+05:30  INFO 10616 --- [springjpavalidation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-22T18:27:05.490+05:30  INFO 10616 --- [springjpavalidation] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@799c8758
+2024-08-22T18:27:05.492+05:30  INFO 10616 --- [springjpavalidation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-22T18:27:06.602+05:30  INFO 10616 --- [springjpavalidation] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-22T18:27:06.650+05:30  INFO 10616 --- [springjpavalidation] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T18:27:06.937+05:30  WARN 10616 --- [springjpavalidation] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-22T18:27:07.288+05:30  INFO 10616 --- [springjpavalidation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-22T18:27:07.298+05:30  INFO 10616 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : Started SpringjpavalidationApplication in 5.151 seconds (process running for 5.683)
+2024-08-22T18:27:07.301+05:30  INFO 10616 --- [springjpavalidation] [main] c.a.s.SpringjpavalidationApplication     : ---------------- API is started ----------------
+2024-08-22T18:27:47.589+05:30  INFO 10616 --- [springjpavalidation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T18:27:47.593+05:30  INFO 10616 --- [springjpavalidation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-22T18:27:47.601+05:30  INFO 10616 --- [springjpavalidation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
